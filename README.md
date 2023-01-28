@@ -1,7 +1,7 @@
 # Seperate-archive
-This code uses 7zip to archive all selected files individually instead of putting them in one compressed file.
+This code uses 7-Zip to archive all selected files individually instead of putting them in one compressed file.
 
-###Change the 7zip location to your location
+###Change the 7-Zip location to your location
 ```
 #7zip location
 
