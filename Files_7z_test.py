@@ -8,7 +8,7 @@ root = tk.Tk()
 root.withdraw()
 
 #7zip location
-seven_zip = r"C:\Applications\7-Zip\7z.exe"
+seven_zip = r"C:\Applications\7-Zip\7z.exe" #change the directory to where your 7zip is located
 
 def generate_password(length):
     return ''.join(random.choice(string.ascii_letters + string.digits) for i in range(length))
