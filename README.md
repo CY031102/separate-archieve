@@ -12,4 +12,4 @@ Run the python file and select the files you want to add to archive and encrypt.
 
 Your Password will show up in the running IDLE once the compression is complete.
 
-The updated seperate-archive_alpha 0.1 version creates a 
+The updated version of the original beta version (alpha 0.1) creates a .txt file to save the password instead of only displaying it in IDLE.
