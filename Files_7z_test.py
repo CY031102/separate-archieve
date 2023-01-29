@@ -1,6 +1,7 @@
 import subprocess
 import tkinter as tk
 from tkinter import filedialog
+import tkinter.messagebox as messagebox
 import random
 import string
 
@@ -18,6 +19,10 @@ files_to_compress = filedialog.askopenfilenames(
     filetypes=(("All files", "*.*"),))
 
 for file in files_to_compress:
-    password = generate_password(127)
+    password = generate_password(256)
     subprocess.run([seven_zip, 'a', '-t7z', '-p'+password, file + '.7z', file])
+    with open(file + ".txt", "w") as f:
+        f.write(password)
     print("File compressed successfully with password: ", password)
+    
+messagebox.showinfo("Compression Finished", "Compression finished successfully.")
