@@ -11,3 +11,5 @@ seven_zip = r"C:\Applications\7-Zip\7z.exe"  #change the directory to where your
 Run the python file and select the files you want to add to archive and encrypt. (by default is 127 ascii letters and string digits in length together)
 
 Your Password will show up in the running IDLE once the compression is complete.
+
+The updated 
